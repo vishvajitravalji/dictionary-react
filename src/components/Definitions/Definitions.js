@@ -6,7 +6,7 @@ const Definitions = ({ meanings, word, LightTheme, category }) => {
     <div className="meanings">
       {/* audio---------------------------- */}
       {meanings[0] && word && category === "en" && (
-        <audio
+        <audio className="audioBar"
           style={{ backgroundColor: "#fff", borderRadius: 10 }}
           src={meanings[0].phonetics[0] && meanings[0].phonetics[0].audio}
           controls
@@ -27,9 +27,9 @@ const Definitions = ({ meanings, word, LightTheme, category }) => {
                
               > 
                 
-                <b><span>Definition : </span>{def.definition}</b>
-                <hr style={{ backgroundColor: "black", width: "100%" }} />
-                {def.example && (
+                <span> <b>Definition :</b> {def.definition}</span>
+
+                 {def.example && (
                   <span>
                     <b>Example :</b> {def.example}
                   </span>
