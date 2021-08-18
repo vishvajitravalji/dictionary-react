@@ -11,7 +11,6 @@
 
 @media (max-width: 700px) {
   .meanings {
-
     height: 50vh;
     width: auto ;
     margin-bottom: 10%;
@@ -27,6 +26,7 @@
   width: 100%;
 }
 .singleMean {
+  
   background: "transparent";
   font-family: "Montserrat", sans-serif;
   box-shadow: 0.5px 0.5px 5px 1px rgba(15, 15, 15, 0.274);
@@ -44,10 +44,6 @@
 
 @media (max-width: 600px) {
   .singleMean {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
     background: transparent;
     gap: 3px;
     margin: 3px 0;
