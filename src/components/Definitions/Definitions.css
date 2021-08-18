@@ -7,12 +7,10 @@
   border-radius: 10px;
   border: 10px groove rgb(185, 185, 185);
   padding: 10px 20px;
-  
 }
 
 @media (max-width: 700px) {
   .meanings {
-    margin-left: 20px;
     height: 50vh;
     width: 80%;
   }
@@ -26,32 +24,27 @@
 .singleMean {
   background: "transparent";
   font-family: "Montserrat", sans-serif;
-  box-shadow:  0.5px 0.5px 5px 1px rgba(29, 15, 15, 0.589);
-  border-radius: 10px;
-  padding: 10px 20px ;
+  box-shadow: 0.5px 0.5px 5px 1px rgba(15, 15, 15, 0.274);
+   border-radius: 10px;
+  padding: 10px 20px;
   display: grid;
   gap: 10px;
   margin: 10px 0px;
   letter-spacing: 1px;
-  
-    font-weight: 900;
-  }
-
+ font-weight: 800;
+}
 
 .audioBar {
   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .singleMean {
     background: transparent;
-    font-size: 13px;
     gap: 3px;
     margin: 3px 0;
-    padding: 0 0 10px 0;
-    box-shadow:  0.5px 0.5px 5px 1px rgba(15, 15, 15, 0.274);
+    box-shadow: 0.5px 0.5px 5px 1px rgba(15, 15, 15, 0.274);
     padding: 10px 20px;
-    
+    font-weight: 800;
   }
- 
 }
